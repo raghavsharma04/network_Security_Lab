@@ -1,6 +1,7 @@
 //Program to Perform Ecryption and Decryption using Ceaser Cipher
+//Date 19 sept
 #include<stdio.h>
-int main(int argc, char const *argv[])
+int main()
 {
     char message[100], ch;
     int i, key;
