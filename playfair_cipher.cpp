@@ -135,7 +135,6 @@ void encrypt(char str[], char keyT[5][5], int ps)
 void encryptByPlayfairCipher(char str[], char key[])
 {
 	char ps, ks, keyT[5][5];
-
 	// Key
 	ks = strlen(key);
 	ks = removeSpaces(key, ks);
@@ -157,13 +156,12 @@ void encryptByPlayfairCipher(char str[], char key[])
 int main()
 {
 	char str[SIZE], key[SIZE];
-
 	// Key to be encrypted
-	strcpy(key, "Monarchy");
+	strcpy(key, "Country");
 	cout << "Key text: " << key << "\n";
 
 	// Plaintext to be encrypted
-	strcpy(str, "instruments");
+	strcpy(str, "gadgets");
 	cout << "Plain text: " << str << "\n";
 
 	// encrypt using Playfair Cipher
@@ -173,5 +171,3 @@ int main()
 
 	return 0;
 }
-
-// This code is contributed by aditya942003patil
