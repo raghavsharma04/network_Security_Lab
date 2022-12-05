@@ -4,4 +4,6 @@
 ## Problems that solves in the lab
    1. Write a program to implement the Ceaser Cipher Encryption Algorithm.
    2. Program to implement the Playfair Cipher Algorithm
+   3. Program to Perform the Hill Cipher Algorithm
+   4. Program to Perform the Rail fence Cipher Algorithm
    
